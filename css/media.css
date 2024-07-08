@@ -1,0 +1,126 @@
+@media (max-width: 1140px) {
+    .body {
+        max-width: 100%;
+    }
+    .card {
+        width: calc(50% - 15px);
+    }
+    .card-img {
+        max-width:100%;
+        height:auto;
+        
+    }
+
+    
+    
+    
+    
+    .footer {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .footer-row {
+        flex-direction: column-reverse;
+
+    }
+    .footer-icons-row {
+        margin-bottom: 30px;
+
+    }
+
+    
+    .project-img{
+       
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+    } 
+    
+
+
+
+
+
+}
+
+
+@media (max-width: 760px) {
+    .heade-title {
+        font-size: 32px;
+    }
+    .portfolio {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .portfolio-header  {
+        font-size: 32px;
+        margin-bottom: 30px;
+        
+        
+        
+        
+    }
+    
+
+    .card { 
+        width: 100%;
+    
+        
+    }
+
+    .portfolio-cards-wrapper {
+        justify-content: center;
+
+    }
+    .card-link {
+        padding: 15px;
+        
+        
+    }
+
+    .card-img {
+        margin-bottom: 10px;
+    }
+    .card-title{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .card p {
+        font-size: 14px;
+    }
+
+
+    /* 2 страница */
+    .project {
+        padding: 40px 0 60px;
+        
+    }
+    .btn-back {
+        margin-top: 20px;
+        
+    }
+    .project-header {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .project-img{
+        margin: 10px;
+        flex-wrap: wrap;
+        justify-content:center
+        
+    }
+    .aboutText{
+        margin-left: 10px;
+        max-width: 100%;
+        font-size: 18px;
+    }
+    .project-text{
+        margin-bottom: 10px;
+    }
+    .photo-about{
+        max-width:100%;
+        height:auto;
+    }
+
+                              
+}
