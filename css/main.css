@@ -32,9 +32,13 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/img/2.jpg);
+    /* background-image: ; */
     background-size: cover;
     background-position: center;
+}
+.img_header{
+    position: absolute;
+    z-index: -1;
 }
 
 .heade-title {
